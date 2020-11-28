@@ -35,7 +35,7 @@ function App() {
       <div className="textFieldContainer">
         <TextField
           autoFocus
-          label="English"
+          label="Toki Pona"
           id="english-input"
           value={stringToTranslate}
           onChange={handleInputChange}
@@ -47,7 +47,7 @@ function App() {
         />
         <div className="spacer"></div>
         <TextField
-          label="Toki Pona"
+          label="English"
           id="toki-pona-output"
           value={translation}
           disabled
