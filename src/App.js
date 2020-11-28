@@ -74,8 +74,17 @@ function App() {
           variant="contained"
           disableElevation
         >
-          Reset input
+          Reset
         </Button>
+      </div>
+      <div class="links">
+        <a href="https://tokipona.org/" rel="noopener noreferrer" target="_blank">
+          (Toki Pona)
+        </a>
+        {` `}
+        <a href="https://github.com/kellyi/toki-pona-translator" rel="noopener noreferrer" target="_blank">
+          (GitHub)
+        </a>
       </div>
     </main>
   );
