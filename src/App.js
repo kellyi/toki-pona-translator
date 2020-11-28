@@ -10,7 +10,7 @@ import translate from './translate';
 import './App.css';
 
 const DEFAULT_INPUT_STRING = '';
-const TEXT_AREA_ROWS = 12;
+const TEXT_AREA_ROWS = 10;
 
 function App() {
   const [stringToTranslate, setStringToTranslate] = useState(DEFAULT_INPUT_STRING);
